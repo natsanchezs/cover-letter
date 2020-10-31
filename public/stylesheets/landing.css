@@ -1,19 +1,56 @@
-#contact a {
-	text-decoration: none;
-   	font-size: 20px;
-    color: black;
-    padding: 10px;
+#home {
+    margin-top: 93px;
+    margin-bottom: 40px;
 }
 
+#contact a {
+	text-decoration: none;
+   	font-size: 1rem;
+    color: black;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+}
 #contact {
-	margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 1rem;
+    padding: 2rem;
+    width: 100%;
+    background-color: #E5E5E5;
+
+}
+    
+
+
+footer {
+     background-color: #E5E5E5;
+     position: absolute;
+     /*bottom:0;*/
+     width:100%;
+     /*height:60px;    Height of the footer */
 }
 
 body {
     background: #F8F8F8;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
+    height: 100%;
+    position: relative;
 }
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
 
 .bg-light {
     background-color: #F8F8F8 !important;
@@ -44,11 +81,25 @@ body {
 }
 
 #wannabe {
-	
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 #typed {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.25;
+}
+
+
+#law {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+img {
+    width: 70%;
 }
