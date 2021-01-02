@@ -34,6 +34,7 @@ app.use(function(req, res, next){
 	res.send("You have reached a page not found");
 });
 
-app.listen(3000, function() {
-  console.log("Server is running at http://localhost:3000");
-});
+const port = process.env.PORT || 3000;
+app.listen(port, function() {
+  console.log(`Server on port ${port}`);
+}); 
