@@ -48,7 +48,7 @@ body {
     background: #B39BC8;
     font-family: "Roboto", sans-serif;
     color: #F0EBF4;
-    font-weight: 300;
+    font-weight: 500;
     height: 100%;
     position: relative;
 }
@@ -110,8 +110,7 @@ body {
     padding-left: 15px;
 }
 
-.row {
-    
+.row {   
     margin-left: 2px;
 }
 
