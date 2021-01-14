@@ -48,7 +48,7 @@ body {
     background: #B39BC8;
     font-family: "Roboto", sans-serif;
     color: #F0EBF4;
-    font-weight: 300;
+    font-weight: 500;
     height: 100%;
     position: relative;
 }
@@ -57,7 +57,7 @@ body {
     min-height: 100vh; /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
-    position: relative;
+   /* position: relative;*/
     min-height: 100%;
     margin-bottom: -189px;
     margin-left: -26px;
@@ -110,8 +110,7 @@ body {
     padding-left: 15px;
 }
 
-.row {
-    
+.row {   
     margin-left: 2px;
 }
 
