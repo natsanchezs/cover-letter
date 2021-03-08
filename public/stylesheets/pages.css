@@ -21,3 +21,10 @@ p i {
 	text-align: center;
 }
 
+h2 {
+	font-size: 400;
+}
+
+li span {
+	font-weight: bold;
+}
