@@ -132,3 +132,12 @@ img {
     width: 59%;
     border-radius: 10px;
 }
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+a:hover {
+    color: inherit;
+    text-decoration: inherit; 
+}
